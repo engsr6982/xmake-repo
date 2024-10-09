@@ -15,6 +15,7 @@ package("plotcraft")
     add_versions("1.0.0", "3810fae436a06210ba2cac552c39b71ecc5814091c81dbe10bf7c6163802e880")
     add_versions("1.0.1", "8f33d53772b0b85f86b025fff3cab9f30d0b93f599d3b74bce2c39eb0a221235")
     add_versions("1.0.2", "a6baf023ad3b2824a8ba336486ff7d3551578f07bfcda190555716de1dd6d7dd")
+    add_versions("1.1.0", "e5799ffe3c1b41a11a38ba1b2289c84373d398a569400c9cfb6507b25e624d41")
 
     on_install(function (package)
         os.cp("include", package:installdir())
