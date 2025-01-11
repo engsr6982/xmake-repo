@@ -14,6 +14,5 @@ package("pland")
     add_versions("v0.4.0-rc.1", "819e84857b16f72ff82d01919ddb2e9d51af024f90f5e30a9550a6d5adc3bfe3")
 
     on_install(function (package)
-        os.cp("include", package:installdir())
-        os.cp("lib/*.lib", package:installdir("lib"))
+        os.cp("*", package:installdir())
     end)
