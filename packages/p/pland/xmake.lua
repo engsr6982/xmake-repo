@@ -12,6 +12,7 @@ package("pland")
     add_versions("0.2.5", "0e7f350454dee04f5a3a0dbbd47ce87f7bd89c831764606e0d04dc2af3f758d6")
     add_versions("0.3.0", "53aa9273aa626f79ae03a63a33bd6c95f658e3c929dc91e43a9e414a2d3a815b")
     add_versions("0.4.0-rc.1", "819e84857b16f72ff82d01919ddb2e9d51af024f90f5e30a9550a6d5adc3bfe3")
+    add_versions("0.5.0", "c14e16fbcebb39165f15259de67dc73ff3cff04d4b33b149a9a00f705b6bc333")
 
     on_install(function (package)
         os.cp("*", package:installdir())
