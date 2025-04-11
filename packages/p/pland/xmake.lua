@@ -1,4 +1,5 @@
 package("pland")
+    set_license("AGPLv3")
     set_homepage("https://github.com/engsr6982/PLand")
 
     add_urls("https://github.com/engsr6982/PLand/releases/download/v$(version)/SDK-PLand.zip", "https://github.com/engsr6982/PLand.git")
