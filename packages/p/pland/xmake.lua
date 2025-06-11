@@ -20,6 +20,7 @@ package("pland")
     add_versions("0.7.1", "37d2dc3d2a24d2b83bc41acd82b76f9445f8dc3c6f87a1af5c98baf3c151c2ff")
     add_versions("0.8.0", "ee6acac34804f95f8ea91faafc7547a0badc9410002012def466b3f0970fb123")
     add_versions("0.8.1", "490fbcaa3d5876bf6480769280f3c0e723953fb8850c7d47696bb7daa8622af1")
+    add_versions("0.9.0", "7e6bd0c6c0a633164f71f7d845e83bbf17c773610c8a9383b336b0075626e2c4")
 
     -- Development / Snapshot
     add_urls("https://github.com/engsr6982/PLand.git")
