@@ -8,7 +8,7 @@ package("teleportsystem")
     on_install(function (package)
         import("core.base.semver")
         cprint(
-            "${bright green}info: ${clear}Downloading PLand SDK for release: ${bright cyan}" .. version .. "${clear}"
+            "${bright green}info: ${clear}Downloading TeleportSystem SDK for release: ${bright cyan}" .. version .. "${clear}"
         )
         import("package.tools.xmake").install(package)
     end)
