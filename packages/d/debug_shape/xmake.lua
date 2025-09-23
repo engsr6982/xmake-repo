@@ -6,6 +6,7 @@ package("debug_shape")
     add_urls("https://github.com/engsr6982/DebugShape.git")
     add_versions("0.1.0", "5b5e740fa130985bc14c615836e2a0dda9a97e7c")
     add_versions("0.2.0", "7c337b5fd6b0c55c03010f535697655ee3d477b5")
+    add_versions("0.3.0", "6de0232c33223750bf254691350acd7837c47d42")
 
     on_install(function (package)
         import("package.tools.xmake").install(package)
