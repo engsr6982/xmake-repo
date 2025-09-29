@@ -4,7 +4,7 @@ package("fastnoise2")
     add_urls("https://github.com/Auburn/FastNoise2.git")
 
     -- <Version, CommitHash>
-    add_versions("v0.10.0-alpha", "9b75083b87d5e391d43dc0c721d8a9fa51db735a")
+    add_versions("0.10.0-alpha", "9b75083b87d5e391d43dc0c721d8a9fa51db735a")
 
 
     add_includedirs("include")
