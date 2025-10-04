@@ -32,6 +32,8 @@ package("pland")
     add_versions("B:0.11.0", "53fe2a74d73ace0629b3a430257c0145ea33eae5")
     add_versions("B:0.12.0", "5f9d77a50171f02787467784006d9eadbbf53d0c")
     add_versions("B:0.13.0", "1897c338d173e05e42bea484d3703ee2b83179e3")
+    add_versions("B:0.14.0", "4c5f6bcc070a81e3e7b36c178e9d8f21d1ffc43f")
+    add_versions("B:0.14.1", "0fb387e17b718dd8f8df2e6d6793de932d9ef039")
 
     on_install(function (package)
         import("core.base.semver")
