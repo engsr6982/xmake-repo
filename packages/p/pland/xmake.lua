@@ -52,6 +52,10 @@ package("pland")
             isDevelop = true;
         end
 
+        cprint(
+            "${bright yellow}warning: ${clear} The package has been transferred, please pull from the new repository: IceBlcokMC/xmake-repo.git ${clear}"
+        )
+
         if isLegacy then 
             cprint(
                 "${bright green}info: ${clear}Downloading PLand SDK for release: ${bright cyan}" .. version .. "${clear}"
